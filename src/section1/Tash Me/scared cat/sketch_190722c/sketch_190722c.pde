@@ -1,5 +1,6 @@
 PImage mustache;
 PImage friend;
+PImage hat;
 void setup(){
   size(800,800);
   friend = 
@@ -8,14 +9,14 @@ void setup(){
   mustache = 
   loadImage("mustache.png");
   hat =
-  loadImage("hat.png");
+  loadImage("hat.jpeg");
 }
 void draw(){
   background(friend);
   image(mustache,mouseX,mouseY);
   if(mousePressed);
   mustache.resize(200,50);
-  if (mouseButton == RIGHT) { image(hat,mouseX,mouseY);
+  if (mouseButton == RIGHT) { image(hat,250,70);
   }
   
   
