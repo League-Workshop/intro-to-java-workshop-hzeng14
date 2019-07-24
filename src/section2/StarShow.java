@@ -19,7 +19,7 @@ robot.setSpeed(8);
 		// 6. Make a variable to hold the X position of the Robot and set it to 10
 int robotx=10; 
 		// 7. Make a variable to hold the Y position of the Robot and set it to 600
-
+int roboty=600;
 		// 8. Make a variable to hold the star size and set it to 25
 
 		// 12. Use a for loop to repeat steps #19 to #18, 30 times
@@ -55,9 +55,9 @@ for(int i=0; i<5; i++) {
 	robot.turn(144);
 	}
 	
-	public static void main(String[] args) {
+
 		new StarShow().makeStars();
 	}
-	}}
+	}
 
 
