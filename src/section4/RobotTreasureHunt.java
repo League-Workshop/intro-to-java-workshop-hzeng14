@@ -16,7 +16,7 @@ import org.jointheleague.graphical.robot.Robot;
 public class RobotTreasureHunt implements KeyEventDispatcher{
 
 	// 1. Create a new mini robot (type "mini" inside the parentheses)
-	
+	Robot hayden =new Robot("mini");
 	private void goUp() throws InterruptedException {
 		// 2. Make the robot move up the screen (use setAngle(angle) and microMove(distance))
 		
@@ -53,7 +53,7 @@ public class RobotTreasureHunt implements KeyEventDispatcher{
 		
 		// 9.  If the robot is in the final location
 		//     --call the treasureFound() method
-		
+		treasureFound();
 	}
 
 	private void go() {
