@@ -8,7 +8,7 @@ public class QuizGame {
 
 		// 1. Create a variable to hold the user's score
 		int number = (0);
-
+Integer.max
 		String number2 = JOptionPane.showInputDialog("What is 7*9?");
 		if (number2.equalsIgnoreCase("63")) {
 			JOptionPane.showMessageDialog(null, "Correct! +1");

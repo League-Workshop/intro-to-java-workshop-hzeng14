@@ -19,6 +19,7 @@ public class RobotTreasureHunt implements KeyEventDispatcher{
 	Robot hayden =new Robot("mini");
 	private void goUp() throws InterruptedException {
 		// 2. Make the robot move up the screen (use setAngle(angle) and microMove(distance))
+		(hayden.setAngle(0) hayden.microMove(3))
 		
 	}
 
